@@ -15,7 +15,9 @@ opcion = 0
 while True:
     opcion = int(input("Ingrese Opción: "))
     if opcion == 1:
-        print("Ingresando Alumno: ")   
+        print("Ingresando Alumno: ") 
+        nombre = input("Ingrese el nombre del Alumno: \n")
+        alumnos = dict(nombre = nombre)
     elif opcion == 2:
         print("Prueba Eliminar Alumno")
     elif opcion == 3:
