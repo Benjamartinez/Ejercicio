@@ -1,6 +1,6 @@
 import csv
 
-filename = 'Prueba csv.csv'
+filename = 'Alumnos.csv'
 
 def menu():
     print("")
